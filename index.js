@@ -1,7 +1,8 @@
 const hourEl= document.getElementById("hour");
 const minutesEl=document.getElementById("minutes");
-const secondsEl=doucment.getElementById("seconds");
+//const secondsEl=doucment.getElementById("second");
 const ampmEl=document.getElementById("ampm");
+const secondsEl=document.getElementById("seconds");
 
 function updateClock(){
     let h= new Date().getHours();
@@ -20,4 +21,4 @@ function updateClock(){
 
 }
 
-updateClock();
+updateClock()
